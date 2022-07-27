@@ -1,0 +1,5 @@
+@import "./extends";
+.card-4-1{
+    @extend %cards-big;
+    padding-bottom: 20px;   
+}

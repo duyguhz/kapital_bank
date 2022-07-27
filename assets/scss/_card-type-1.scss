@@ -1,0 +1,37 @@
+@import "./extends";
+.card-footer{
+    
+    .order-footer{
+        button{
+            @extend %cards  !optional;
+         
+            
+        }
+       
+    }
+    .more-info-footer{
+        button{
+          @extend %cards !optional;
+          
+        }
+      
+    }
+}
+.card-1{
+    
+   @extend %cards-big !optional;
+  
+}
+.card-2{
+    @extend %cards-big !optional;
+}
+.card-3{
+    @extend %cards-big !optional;
+}
+.card-4{
+    @extend %cards-big !optional;
+}
+.cards-1{
+    justify-content: space-evenly;
+
+}

@@ -1,0 +1,83 @@
+.cards-desc{
+    strong{
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: .01em;
+        padding: 10px;
+      
+    }
+    p{
+        width: 65%;
+        padding: 10px;
+        
+    }
+   
+}
+.card-types{
+    
+  
+    & :first-child{
+        background-color: $red-color;
+        border-color: $red-color;
+        color: white;
+    }
+    button{
+        border-radius: 37px;
+        background-color: $button-bg;
+        border-color: $button-bg;
+        color: $text-color;
+    }
+}
+.popular-card{
+    background-color: #f9fafb;
+    order: 1px solid #eaeaea;
+    border-radius: 15px;
+    display: flex;
+    padding: 80px;
+    margin: 30px;
+   justify-content: center;
+
+    .popular-desc{
+        display: flex;
+        justify-content: space-around;
+       
+    }
+}
+.popular-text{
+    padding-right: 20%;
+    padding-left: 5%;
+    .popular-red-title{
+      
+        span{
+            text-transform: uppercase;
+             color: #ff0023;
+             font-size: 18px;
+             line-height: 12px;
+            
+            
+        }
+       
+    }
+    .order-button{
+      color: white;
+      text-align: center;
+      padding-top: 10%;
+    
+     button{
+        width: 400px;
+        height: 55px;
+        font-size: 25px;
+        background-color: #f45369;;
+     }
+      span{
+        color:#2e3131;
+       
+       
+      }
+
+    }
+}
+
+
+
+   

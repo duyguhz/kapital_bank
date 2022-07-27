@@ -1,0 +1,4 @@
+@import "./extends";
+.card-3-1{
+    @extend %cards-big !optional;
+}

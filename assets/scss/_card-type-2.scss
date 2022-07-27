@@ -1,0 +1,9 @@
+@import "./extends";
+.cards-2{
+    .debet{
+        @extend %cards-big;
+        padding-bottom: 20px;
+    }
+    justify-content: space-evenly;
+
+}

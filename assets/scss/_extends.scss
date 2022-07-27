@@ -1,0 +1,16 @@
+%cards-small{
+    border-color: #c8d2dc;
+
+}
+%cards-big{
+    width: 350px;
+    height: 320px;
+    background-color: #f9fafb;
+    border-radius: 10%;
+   margin: 30px;
+   padding: 20px;
+   border-color:#f9fafb; 
+   img{
+    transform: translateY(-40%);
+   }
+}

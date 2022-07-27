@@ -1,0 +1,23 @@
+.about-kapital{
+    .choices{
+        button{
+            border-radius: 10px;
+            background-color: $button-bg;
+            border-color: $button-bg;
+            color: $text-color;
+            margin: 20px;
+        }
+    }
+    .about-text{
+        p{
+            font-size: 12px;
+            margin: 30px;
+          }
+    }
+    .cards-ul{
+        background-color:$button-bg ;
+        padding: 20px;
+     
+    }
+
+}
